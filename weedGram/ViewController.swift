@@ -8,11 +8,16 @@
 
 import UIKit
 
+import UIKit.UIGestureRecognizerSubclass
+
 class ViewController: UIViewController {
+
+  
+    @IBOutlet var forceValueLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {

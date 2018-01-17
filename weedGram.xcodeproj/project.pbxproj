@@ -14,6 +14,9 @@
 		26B96634200FDA8900F9DF4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B96632200FDA8900F9DF4B /* LaunchScreen.storyboard */; };
 		26B9663F200FDA8900F9DF4B /* weedGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B9663E200FDA8900F9DF4B /* weedGramTests.swift */; };
 		26B9664A200FDA8900F9DF4B /* weedGramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B96649200FDA8900F9DF4B /* weedGramUITests.swift */; };
+		26B96659200FDAD300F9DF4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B96658200FDAD300F9DF4B /* UIKit.framework */; };
+		26B9665B200FDB1B00F9DF4B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B9665A200FDB1B00F9DF4B /* AVFoundation.framework */; };
+		26B9665D200FDB2500F9DF4B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B9665C200FDB2500F9DF4B /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		26B96645200FDA8900F9DF4B /* weedGramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weedGramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B96649200FDA8900F9DF4B /* weedGramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weedGramUITests.swift; sourceTree = "<group>"; };
 		26B9664B200FDA8900F9DF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B96658200FDAD300F9DF4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26B9665A200FDB1B00F9DF4B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		26B9665C200FDB2500F9DF4B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B9665D200FDB2500F9DF4B /* CoreMotion.framework in Frameworks */,
+				26B9665B200FDB1B00F9DF4B /* AVFoundation.framework in Frameworks */,
+				26B96659200FDAD300F9DF4B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,7 @@
 				26B9663D200FDA8900F9DF4B /* weedGramTests */,
 				26B96648200FDA8900F9DF4B /* weedGramUITests */,
 				26B96627200FDA8900F9DF4B /* Products */,
+				26B96657200FDAD300F9DF4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +133,16 @@
 				26B9664B200FDA8900F9DF4B /* Info.plist */,
 			);
 			path = weedGramUITests;
+			sourceTree = "<group>";
+		};
+		26B96657200FDAD300F9DF4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26B9665C200FDB2500F9DF4B /* CoreMotion.framework */,
+				26B9665A200FDB1B00F9DF4B /* AVFoundation.framework */,
+				26B96658200FDAD300F9DF4B /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
